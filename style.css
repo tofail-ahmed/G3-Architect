@@ -12,7 +12,7 @@ header {
 
 .navbar>h2 {
       font-weight: 700;
-      font-size: 45px;
+      font-size: 35px;
 }
 
 .navbar ul {
@@ -89,11 +89,12 @@ header {
 
 .images img {
       border-radius: 8px;
-      width: 342px;
+      width: 242px;
 }
 
 .description {
       width: 50%;
+      padding-left: 100px;
       padding-top: 10%;
 
 
@@ -179,7 +180,8 @@ header {
 }
 
 .image img {
-      width: 708px;
+      padding-left: 100px;
+      width: 600px;
 }
 
 .image button {
@@ -224,7 +226,7 @@ header {
       flex-direction: column;
       align-items: center;
       width: 200.83px;
-      height: 200.83px;
+      height:220.83px;
       padding: 20px;
       border: 3px solid orangered;
       border-radius: 5px;
@@ -241,12 +243,12 @@ header {
 
 .fact h2 {
       font-weight: 600;
-      font-size: 45px;
+      font-size: 35px;
 }
 
 .fact h3 {
       font-weight: 600;
-      font-size: 20px;
+      font-size: 15px;
 
 }
 
@@ -290,6 +292,6 @@ footer p {
       font-weight: 400;
       font-size: 20px;
       text-align: center;
-      padding-top:50px;
-      padding-bottom:50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
 }
