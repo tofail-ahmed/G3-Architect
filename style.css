@@ -279,6 +279,49 @@ header {
       width: 165.83px;
 }
 
+/* conatact styles */
+.contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70%;
+      margin: 50px 15%;
+      padding: 30px 20px;
+      background-color:  #FFF4E7;
+      border-radius: 5px;
+}
+
+.contact h2 {
+      font-size: 40px;
+}
+.contact div{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 10px;
+}
+.div input{
+      border-radius: 5px;
+      border: teal 5px solid;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: 600;
+}
+.div button{
+      background-color: rgb(247, 106, 41);
+      width: 100px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+}
+.div a{
+      text-decoration: none;
+      color: #faf9f9;
+      font-size: 20px;
+      font-weight: 600;
+     
+}
+
 /* footer styles */
 
 footer {
@@ -374,12 +417,23 @@ footer p {
       .sponsors {
             margin: 10px 20px;
       }
+
       .sponsor {
             flex-direction: column;
-            
-            margin:40px 50px ;
+
+            margin: 40px 50px;
       }
-      
+      .contact {
+            
+            
+            margin: 20px 15%;
+            padding: 10px 10px;
+           
+      }
+      .div input{
+           width: 80%;
+      }
+
 
 
 }
