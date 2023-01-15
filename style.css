@@ -226,7 +226,7 @@ header {
       flex-direction: column;
       align-items: center;
       width: 200.83px;
-      height:220.83px;
+      height: 220.83px;
       padding: 20px;
       border: 3px solid orangered;
       border-radius: 5px;
@@ -294,4 +294,92 @@ footer p {
       text-align: center;
       padding-top: 50px;
       padding-bottom: 50px;
+}
+
+.hide {
+      display: none;
+}
+
+
+/* media query */
+@media screen and (max-width:576px) {
+      .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+      }
+
+      .navbar>h2 {
+            padding-left: 20%;
+      }
+
+      .navbar ul {
+            display: flex;
+            flex-direction: column;
+
+      }
+
+      .banner button {
+            margin-left: 25%;
+      }
+
+      .features-list {
+            flex-direction: column;
+      }
+
+      .features-list .images {
+            grid-template-columns: 1fr;
+            width: 100%;
+      }
+
+      .images img {
+
+            width: 90%;
+      }
+
+      .description {
+            width: 100%;
+            padding-left: 20px;
+            padding-top: 10%;
+
+      }
+
+      .features-love-enjoy {
+            flex-direction: column-reverse;
+      }
+
+      .images {
+            width: 100%;
+      }
+
+      .image img {
+            padding-left: 20px;
+            width: 90%;
+      }
+
+      .image button {
+            top: -50px;
+            left: 70px;
+            width: 250px;
+            height: 100px;
+      }
+
+
+      .facts {
+
+            flex-direction: column;
+            padding-left: 20px;
+      }
+
+      .sponsors {
+            margin: 10px 20px;
+      }
+      .sponsor {
+            flex-direction: column;
+            
+            margin:40px 50px ;
+      }
+      
+
+
 }
