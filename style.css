@@ -186,8 +186,8 @@ header {
 
 .image button {
       position: relative;
-      top: -100px;
-      left: -50px;
+      top: -50px;
+      left: -20px;
       background: #FF900E;
       border-radius: 8px;
       width: 300px;
